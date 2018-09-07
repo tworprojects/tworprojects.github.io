@@ -1,6 +1,6 @@
-jekyll build --source . --destination _deploy
-touch _deploy/CNAME
-echo 'resume.tworitdash.in' > _deploy/CNAME
+jekyll build --destination _deploy
+
+
 cd _deploy
  
 git add .
